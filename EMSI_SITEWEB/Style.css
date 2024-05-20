@@ -1,0 +1,651 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+body{
+    position: relative;
+}
+/* Header Section Code Start */
+header{
+    height: 860px;
+    background-image: url('./Photos/Header/pexels-manel-cusido-15278958.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: grayscale(100%); */
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    align-items: center;
+    padding: 20px;
+}
+.fixed{
+    position: fixed;
+    background-color: #2f00da;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    width: 100vw;
+    align-items: center;
+    /* padding: 20px; */
+    top: 0;
+    z-index: 10;
+
+}
+
+.link:hover, .active{
+    border-bottom: 4px solid #DC6B19;
+    
+}
+.nav-button .btn{
+    width:160px;
+    height: 30px;
+    font-weight: 500;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #2f00da;
+     border:none;
+    
+}
+
+nav .nav-button a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px ;
+    padding: 10px;
+    /* border-radius: 20px; */
+}
+/* 
+#registerbtn{
+    margin-left: 10px;
+    
+} */
+/* .btn.white-btn{
+    background-color: #2f00da;
+}
+.btn:hover{
+    background: rgba(55, 88, 205, 0.4);
+} */
+nav h1{
+    
+    font-size: 32px;
+    font-weight: 900;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav  ul  li{
+    margin: 0 25px 0 0;
+    /* list-style: none; */
+} 
+nav ul li a{
+    /* font-family: Montserrat; */
+    font-weight:  700;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+nav .S{
+    color: #DC6B19;
+}
+nav .A{
+    color: #DC6B19;
+}
+header.ms{
+    background-image: url(./Photos/wrapper.jpeg);
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+div.wrapper{
+    color: #fff;
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background:transparent;
+    border: 4px solid rgba(128, 0, 0, 0.28);
+    border-radius: 20px;
+    backdrop-filter:blur(10px) ;
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, .5); */
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.wrapper .form-box{
+    width:100%;
+    padding:40px
+
+}
+.form-box h2{
+    font-size: 2em;
+    color: #b3a38f;
+    text-align: center;
+}
+.input-box{
+position: relative;
+width: 100%;
+height: 50px;
+border-bottom: 2px solid #b3a38f ;
+margin: 30px 0;
+}
+
+.input-box input{
+width: 100%;
+height: 80%;
+background-color: #d1bb9d;
+border:none;
+outline: none;
+font-size: 1em;
+color:#000000;
+font-weight: 600px;
+
+}
+.input-box .icon{
+    position:absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #3e270b;
+    line-height: 57px;
+}
+.remember-forgot{
+    font-size: .9em;
+    color:#e7e0d7;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot label input{
+    accent-color:#e7e0d7;
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: #e1d3c1;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #e7e0d7;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color:black;
+    font-weight: 500;
+}
+.login-register{
+    font-size: .9em;
+    color: #ddcab0;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+
+}
+.login-register p a{
+    color: #d1bb9d;
+    text-decoration: none;
+}
+.login-register p a:hover{
+    text-decoration: underline;
+}
+nav ul li a:hover{
+    color: #DC6B19;
+    transition: 0.3s ease-in-out; 
+    
+}
+/* nav ul li a::before
+{
+    content: '';
+    background-color: #DC6B19;
+    position: absolute;
+    width: 0px;
+    height: 5px;
+    bottom: 0;
+   
+    transition: 0.5s ease-in-out;
+}
+nav ul li a:hover::before{
+    content: '';
+    background-color: #DC6B19;
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    bottom: 0;
+    margin-top: 15px;
+} */
+
+header  .container{
+    text-align: center;
+    margin-top: 260px;
+    /* display: block;
+    background-color: #1d9e91;
+   
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;  */
+   
+}
+header .container h3{
+    color: #fff;
+    font-size: 32px;
+
+}
+header .container button{
+    border: none;
+    padding: 25px;
+    border-radius: 40px;
+    background-color: #DC6B19;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 28px;
+    font-weight: 600; 
+    
+}
+header .container button:hover{
+    background-color: #77B0AA;
+    transition: 0.6s ease-in-out;
+    box-shadow: 10px 5px 50px #1d9e91;
+}
+header .shape{
+    position: absolute;
+    border: 15px solid #DC6B19;
+    width: 25px;
+    height: 25px;
+    right: 140px;
+    top:  150px;
+    box-shadow: 0px 0px 30px #86471a;
+    animation: rotation 5s linear infinite;
+}
+@keyframes rotation {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+    
+}
+/* Header Section Code End */
+
+/* A propos section start */
+#apropos{
+    padding: 7%;
+}
+#apropos img{
+    width: 380px;
+    height: 640px;
+    float: left;
+    padding-right: 40px;
+    
+}
+#apropos h3{
+    font-size: 64px;
+    margin-bottom: 7%;
+    color: #000;
+    position: relative;
+}
+#apropos h3::before{
+    content:'';
+ 	/* box-sizing: border-box; */
+     width: 280px;
+ 	height: 10px;
+ 	position: absolute;
+ 	/* left: 420px; */
+ 	bottom:-25px;
+ 	
+ 	background-color: #DC6B19;
+
+}
+::selection{
+    background-color: #DC6B19;
+    color: #f3f2f1;
+    }
+
+#apropos p{
+    font-size: 20px;
+    margin-bottom: 110px;
+}
+#apropos button{
+    border: none;
+    background-color: #DC6B19;
+    color: #fff;
+    padding: 10px;
+    border-radius: 60px;
+    font-size: 24px;
+    font-weight: 600;
+}
+#apropos button:hover{
+    background-color: #77B0AA;
+    transition: 0.5s ease-in-out;
+    box-shadow: 10px 5px 30px #1d9e91;
+    
+}
+
+/* apropos section end */
+
+/* Direction Section Start  */
+#Direction{
+    padding: 7%;
+}
+#Direction .sec_title{
+    color: #000;
+    font-size: 52px;
+    position: relative;
+}
+#Direction .sec_title::before{
+    content: '';
+    position: absolute;
+    width: 280px;
+    height: 10px;
+    background-color: #DC6B19;
+    bottom: -25;
+}
+#Direction .cards{
+    display: flex;
+    justify-content: space-around;
+    flex: 0 0 100%;
+    margin-top: 5%;
+}
+#Direction .card{
+    flex: 0 0 30%;
+    max-width: 30%;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+}
+#Direction .card img{
+    width: auto;
+    height: 680px;
+    display: block;
+    transform: scale(2) rotate(20deg) ;
+    transition: 0.5s ease-in-out;
+    filter: grayscale(100%);
+}
+#Direction .card img:hover
+{
+    transform: scale(1) rotate(0deg);
+    filter: grayscale(50%);
+}
+/* #Direction .card .error:hover
+{
+    transform: scale(1.4);
+} */
+
+.details{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-bottom: 40px;
+    opacity:0 ;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    /* transition: 0.5s ease-in-out; */
+}
+
+.details h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+
+}
+.details p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    /* transition: 0.5s ease ; */
+
+}
+#Direction .card:hover .details {
+    opacity: 1;
+}
+
+.button .card_btn{
+    position: absolute;
+    border: none;
+    width: 100%;
+    background-color: #2f00da;
+    height: 4%;
+    bottom: 0;
+}
+.button .card_btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.0rem;
+}
+
+/* Destination end */
+
+/* Contact Start */
+
+.Contact-Sec{
+    padding: 80px 0 80px;
+}
+.Contact-Sec .contact-img{
+    padding: 0 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.Contact-Sec .contact-img .img-box{
+    background-image: url('./Photos/Contact.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+}
+.Contact-Sec .Section-title{
+    text-align: center;
+}
+.Contact-Sec .Section-title h1{
+    color: #fff;
+}
+.Contact-Sec .Section-title h1:before{
+    background-color: #DC6B19;
+    left: 50%;
+    margin-left: -40px;
+}
+
+/*       Form       */
+
+.Contact-Sec .contact-form{
+    flex:0 0 100%;
+    max-width: 100%;
+    padding: 0px 65px;
+}
+
+.Contact-Sec .contact-form .form{
+    background-color: #f3f2f1;
+   
+    padding: 55px 40px;
+    margin-top: -140px;
+}
+.Contact-Sec .contact-form .form label{
+    color: #000000;
+    font-weight: 600;
+    display: block;
+    margin:  0 0 5px;
+}
+.Contact-Sec .contact-form .form .input-group{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+.Contact-Sec .contact-form .form .input-group.left,
+.Contact-Sec .contact-form .form .input-group.right{
+    flex:  0 0 50%;
+    max-width: 50%;
+}
+.Contact-Sec .contact-form .form .input-control{
+    width: 100%;
+    height: 45px;
+    padding: 6px 0px;
+    color: #000000;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #cccccc;
+}
+.Contact-Sec .contact-form .form .input-control:focus{
+    outline: none;
+}
+
+.Contact-Sec .contact-form .form textarea.input-control{
+    height: 140px;
+    resize: none;
+    padding-top:12px;
+}
+.Contact-Sec .contact-form .form .form-btn{
+    position: relative;
+    left: 40%;
+}
+.Contact-Sec .contact-info{
+    
+    flex: 0 0 100%;
+    max-width: 100%;
+   
+}
+.Contact-Sec .contact-info .info-item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 40px;
+}
+.Contact-Sec .contact-info .info-item h5{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+.Contact-Sec .contact-info .info-item p{
+    font-size: 16px;
+    color: #555555;
+    margin: 0;
+
+}
+.Contact-Sec .social-links{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    text-align: center;
+}
+.Contact-Sec .social-links a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+.Contact-Sec .social-links img{
+    width: 28px;
+    display: block;
+    transition: all 0.2s ease;
+}
+.Contact-Sec .social-links a:hover img{ 
+    opacity: 0.5;
+}
+
+.btn-01{
+    background-color: #FF9800;
+    color: #ffffff;
+    border: 2px solid transparent;
+    padding: 10px 40px;
+    border-radius: 30px;
+    line-height: 1.5;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.5s ease;
+    width: auto;
+
+    
+}
+.btn-01:hover{
+    background-color: transparent;
+    border-color: #FF9800;
+    color: #FF9800;
+}
+
+/* Contact End */
+footer{
+    background-color: #2f00da;
+}
+footer .icons{
+    display: flex;
+    justify-content: center;
+}
+.fab{
+    font-size: 36px;
+    color: white;
+    padding: 20px;
+
+}
+footer .c_mark{
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+
+/* marrakech */
+
+#marrakech{
+    background-image: url(./Photos/Cards/pexels-taryn-elliott-3889840.jpg);
+    height: 100vh;
+}
+#marrakech button a {
+    text-decoration: none;
+    color: #fff;
+}
+#agafay{
+    background-image: url(./Photos/Cards/agafay.jpg);
+    height: 100vh;
+}
+#agafay button a {
+    text-decoration: none;
+    color: #fff;
+}
+#dakhla{
+    background-image: url(./Photos/Cards/Dakhla.jpg);
+    height: 100vh;
+}
+#dakhla button a {
+    text-decoration: none;
+    color: #fff;
+}
+#fes{
+    background-image: url(./Photos/Cards/fes.jpg);
+    height: 100vh;
+}
+#fes button a {
+    text-decoration: none;
+    color: #fff;
+}
+#merzouga{
+    background-image: url(./Photos/Cards/mrzoga.jpg);
+    height: 100vh;
+}
+#merzouga button a {
+    text-decoration: none;
+    color: #fff;
+}
